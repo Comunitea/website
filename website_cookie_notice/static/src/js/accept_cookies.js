@@ -8,7 +8,7 @@
         event.preventDefault();
         $.ajax($(event.target).attr("href"), {
             "complete": function(jqXHR, textStatus){
-                $(event.target).closest(".cc-cookies").hide("fast");
+                $(event.target).closest(".cc-cookies").hide("fast", function(){$(this).remove();});
             }
         });
     });

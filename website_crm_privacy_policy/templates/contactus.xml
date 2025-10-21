@@ -5,10 +5,7 @@
         inherit_id="website_crm.contactus_form"
         name="Add privacy policy checkbox"
     >
-        <xpath
-            expr="//form//div/div/span[@id='s_website_form_result']/.."
-            position="before"
-        >
+        <xpath expr="//t[@t-set='contactus_form_values']" position="after">
             <div class="form-group col-12">
                 <div class="form-check">
                     <input

@@ -1,6 +1,6 @@
 <odoo>
     <!-- Privacy Policy -->
-    <template
+    <!-- <template
         id="contactus_form"
         inherit_id="website_crm.contactus_form"
         name="Add privacy policy checkbox"
@@ -26,5 +26,5 @@
                 </div>
             </div>
         </xpath>
-    </template>
+    </template> -->
 </odoo>
